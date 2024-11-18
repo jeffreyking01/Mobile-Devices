@@ -1,0 +1,90 @@
+In light of the recent Salt Typhoon attacks on U.S. telecommunications infrastructure, I decided to take a stab at summarizing the traditional attack surface for a mobile device. At some point I will reference the various attack scenarios with some variety of open source intelligence (articles, whitepapers, journals). I am approaching the mitigation strategy from the perspective of a corporate entity.
+
+[Compromise of hardware]
+
+Compromise of hardware design or fabrication supply chain
+Difficulty: 10/10
+Mitigation: incumbent upon vendor
+
+[Compromise of hardware design or fabrication supply chain]
+Difficulty: 10/10
+Mitigation: buy directly from vendor
+
+Exploitation of unknown hardware vulnerabilities
+Difficulty: 9/10
+Mitigation: keep hardware current
+
+[Compromise of operating system]
+
+Compromise of operating system supply chain
+Difficulty: 10/10
+Mitigation: incumbent on vendor
+
+Exploitation of unknown operating system vulnerabilities
+Difficulty: 8/10
+Mitigation: keep operating system software current; monitor for jailbroken devices
+
+[Compromise of application software]
+
+Compromise of application storefront
+Difficulty: 10/10
+Mitigation: incumbent upon vendor; use corporate storefront
+
+Compromise of application delivery protection/integrity mechanisms (e.g., code signing)
+Difficulty: 10/10
+Mitigation: incumbent upon vendor
+
+Exploitation of Apple’s third-party application vetting processes
+Difficulty: 9/10
+Mitigation: incumbent upon vendor
+
+Exploitation of iOS software design by third-party application producers with malicious intent
+Difficulty: 9/10
+Mitigation: limit acquisition of software to reputable vendors
+
+[Compromise of confidentiality of unencrypted voice telephony]
+
+Interception of voice calls as raw signal.
+Difficulty: Nation-state [1/10]; citizen [9/10]
+Mitigation: Use applications for encrypted telephony.
+
+Compromise of voice calls as they transit carrier networks.
+Difficulty: Nation-state [4/10]; citizen [10/10]
+Mitigation: Use applications for encrypted telephony.
+
+[Compromise of confidentiality of unencrypted text messaging (i.e., SMS)]
+
+Interception of data between mobile device and tower.
+Difficulty: Nation-state [1/10]; citizen [9/10]
+Mitigation: Use applications for encrypted messaging.
+
+Compromise of text messages as they transit carrier networks.
+Difficulty: Nation-state [4/10]; citizen [10/10]
+Mitigation: Use applications for encrypted messaging.
+
+Compromise of confidentiality of encrypted voice telephony or encrypted text messaging
+
+Interception of data between mobile device and tower.
+Difficulty: Nation-state [1/10]; citizen [9/10]
+Mitigation:
+
+Compromise of encryption on the data network.
+Difficulty:
+Mitigation:
+
+SIM/e-SIM hijacking.
+Difficulty: [4/10]
+Mitigation: Set SIM PIN.
+
+Unauthorized number porting.
+Difficulty: [6/10]
+Mitigation: Set carrier PIN.
+
+Carrier settings manipulation
+Difficulty:
+Mitigation:
+
+Account takeover through password guessing.
+Difficulty: [1/10]
+Mitigation: Enable SMS with a passkey*
+*Sadly not all carriers allow this
