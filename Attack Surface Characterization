@@ -6,7 +6,7 @@ Compromise of hardware design or fabrication supply chain
 Difficulty: 10/10
 Mitigation: incumbent upon vendor
 
-[Compromise of hardware design or fabrication supply chain]
+Compromise of hardware design or fabrication supply chain
 Difficulty: 10/10
 Mitigation: buy directly from vendor
 
@@ -23,6 +23,11 @@ Mitigation: incumbent on vendor
 Exploitation of unknown operating system vulnerabilities
 Difficulty: 8/10
 Mitigation: keep operating system software current; monitor for jailbroken devices
+
+Compromise of keychain while in an unencrypted state ("after first unlock")
+Relevant: https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html
+Difficulty: 9/10
+Mitigation: ?
 
 [Compromise of application software]
 
